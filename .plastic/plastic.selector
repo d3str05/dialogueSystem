@@ -1,0 +1,4 @@
+repository "dialogueSystem@d3str228@cloud"
+  path "/"
+    br "/main"
+    co "/main"
