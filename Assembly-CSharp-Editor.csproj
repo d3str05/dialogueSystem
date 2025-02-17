@@ -66,6 +66,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
+    <Compile Include="Assets\Ink\Demos\Basic Demo\Scripts\Editor\BasicInkExampleEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -1301,6 +1302,14 @@
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{8461084F-CD99-1365-D3AA-F7C3E9467E3C}</Project>
       <Name>Assembly-CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="Ink-Libraries.csproj">
+      <Project>{DFB014B7-211E-4978-2CCF-103683B4DB54}</Project>
+      <Name>Ink-Libraries</Name>
+    </ProjectReference>
+    <ProjectReference Include="InkEditor.csproj">
+      <Project>{EF82DC40-0E8D-C23C-31E9-AEA3F4D4A034}</Project>
+      <Name>InkEditor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
